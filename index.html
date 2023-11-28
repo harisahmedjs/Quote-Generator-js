@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Qoute Generator </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="qoute-box">
+        <h2>Quote of the day</h2>
+        <blockquote id="qoute">loading...</blockquote>
+        <span id="author">loading...</span>
+        <div>
+            <button onclick="getqoute(api_url)">New Quote</button>
+            <button onclick="tweet()"> <img src="./assets/th.jpg" >Tweet</button>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
